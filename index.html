@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NextGen Robotics is a 501(c)(3) nonprofit running two FIRST LEGO League teams in West Windsor, NJ: FLL Explore 33994 Great Gears and FLL Challenge 608 Gear Up." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#0B1120" />
+  <title>NextGen Robotics</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo-horizontal.png" alt="NextGen Robotics" class="logo-img" height="36" />
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+      <nav class="tabs" id="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="teams.html" data-page="teams.html">Teams</a>
+        <a href="awards.html" data-page="awards.html">Awards</a>
+        <a href="resources.html" data-page="resources.html">Resources</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="hero-eyebrow">FIRST LEGO League &middot; West Windsor, NJ &middot; 501(c)(3) Nonprofit</div>
+        <h1>NextGen Robotics</h1>
+        <p class="hero-desc">Build, Learn, and Grow Together.</p>
+
+        <!--
+          TO ADD A NEW TEAM: bump team-count-num below, then copy one
+          .team-count-item block and update its name/number/age range.
+          (This is the only spot on the homepage that needs a manual update
+          when a team is added — everything else lives on teams.html.)
+        -->
+        <div class="team-count-card">
+          <div class="team-count-head">
+            <span class="team-count-num">2</span>
+            <span class="team-count-label">FIRST LEGO League Teams</span>
+          </div>
+          <div class="team-count-list">
+            <div class="team-count-item">
+              <strong>FIRST LEGO League Explore</strong>
+              <span class="team-count-meta">Team 33994 &middot; Ages 6&ndash;10</span>
+            </div>
+            <div class="team-count-item">
+              <strong>FIRST LEGO League Challenge</strong>
+              <span class="team-count-meta">Team 608 &middot; Ages 10&ndash;14</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="badge-row">
+          <span class="badge-pill"><strong>18</strong> Awards Won</span>
+          <span class="badge-pill"><strong>25+</strong> Team Members</span>
+          <span class="badge-pill"><strong>10+</strong> Years Building Robots</span>
+        </div>
+
+        <div class="btn-row">
+          <a class="btn-primary" href="teams.html">Meet Our Teams &rarr;</a>
+          <a class="btn-secondary" href="about.html">Who We Are</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img class="zoomable" src="images/robot-challenge.png" alt="Gear Up's FLL Challenge robot" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SPONSOR TEASER -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-label reveal">Our sponsor</div>
+      <div class="sponsor-card reveal">
+        <img class="sponsor-logo zoomable" src="images/sponsor-nextgen-church.png" alt="NextGen Church logo" />
+        <div class="sponsor-name">NextGen Church</div>
+        <p class="sponsor-desc">Proud sponsor of NextGen Robotics.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>NextGen Robotics</span>
+      <span class="footer-sep">&middot;</span>
+      <span>FLL Challenge 608 Gear Up &amp; FLL Explore 33994 Great Gears</span>
+      <span class="footer-sep">&middot;</span>
+      <span>West Windsor Township, NJ</span>
+      <span class="footer-sep">&middot;</span>
+      <a href="mailto:nextgenroboticsnj@gmail.com">nextgenroboticsnj@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

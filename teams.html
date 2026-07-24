@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet Gear Up (FLL Challenge 608, ages 10-14) and Great Gears (FLL Explore 33994, ages 6-10), the two FIRST LEGO League teams run by NextGen Robotics." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#0B1120" />
+  <title>Our Teams &mdash; NextGen Robotics</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo-horizontal.png" alt="NextGen Robotics" class="logo-img" height="36" />
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+      <nav class="tabs" id="site-nav">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="teams.html" data-page="teams.html">Teams</a>
+        <a href="awards.html" data-page="awards.html">Awards</a>
+        <a href="resources.html" data-page="resources.html">Resources</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-label">Our teams</div>
+      <h1>Two teams, one mission</h1>
+      <p>NextGen Robotics runs two FIRST LEGO League teams, serving different age groups and program levels.</p>
+
+      <!--
+        JUMP NAV — one pill per team. When a new team is added below,
+        add a matching pill here (href must match that section's id).
+      -->
+      <div class="team-jumpnav">
+        <a href="#challenge">Gear Up</a>
+        <a href="#explore">Great Gears</a>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    ============================================================
+    TO ADD A NEW TEAM: copy one whole <section class="section ..." id="...">
+    block (including its closing </section>), then update:
+      1. The id (used by the jump-nav pill above and by nav anchor links)
+      2. .team-badge, .section-title, .team-age
+      3. The two images in .program-photos (team photo + robot/model photo)
+      4. .team-desc copy
+      5. .contact-card ages + phone number
+      6. Add a matching pill to .team-jumpnav above
+      7. Alternate class="section" / class="section section-alt" so
+         consecutive teams keep the alternating background stripe
+    No other files need to change — the homepage's team-count-card and
+    footer team list are the only other places a new team is mentioned.
+    ============================================================
+  -->
+
+  <section class="section" id="challenge">
+    <div class="container">
+      <div class="team-badge reveal">FLL Challenge 608 &middot; Challenge Team</div>
+      <h2 class="section-title reveal">Gear Up</h2>
+      <div class="team-age reveal">Ages 10&ndash;14</div>
+
+      <div class="program-photos">
+        <div class="program-photo reveal reveal-1">
+          <img src="images/team-challenge.png" alt="Gear Up, FLL Challenge 608, team photo at competition" loading="lazy" />
+        </div>
+        <div class="program-photo program-photo--contain reveal reveal-2">
+          <img src="images/robot-challenge.png" alt="Gear Up's FLL Challenge robot" loading="lazy" />
+        </div>
+      </div>
+
+      <p class="team-desc reveal">
+        Designs, builds, and programs an autonomous LEGO&reg; robot to complete
+        missions on the game table, and researches an engineering solution to a
+        real-world problem each season. Building robots since 2014.
+      </p>
+
+      <div class="contact-card reveal">
+        <div class="contact-row"><span class="contact-label">Ages</span><span>10&ndash;14</span></div>
+        <div class="contact-row"><span class="contact-label">Contact</span><a href="tel:+17324978234">732-497-8234</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="explore">
+    <div class="container">
+      <div class="team-badge reveal">FLL Explore 33994 &middot; Explore Team</div>
+      <h2 class="section-title reveal">Great Gears</h2>
+      <div class="team-age reveal">Ages 6&ndash;10</div>
+
+      <div class="program-photos">
+        <div class="program-photo reveal reveal-1">
+          <img src="images/team-explore.jpg" alt="Great Gears, FLL Explore 33994, team photo with their Team Poster Award" loading="lazy" />
+        </div>
+        <div class="program-photo reveal reveal-2">
+          <img src="images/model-explore.jpg" alt="Great Gears' FLL Explore LEGO team model" loading="lazy" />
+        </div>
+      </div>
+
+      <p class="team-desc reveal">
+        Explores this season's theme through a shared LEGO model and presents
+        discoveries to judges, building confidence and curiosity in younger
+        students. Winner of the Team Poster Award at the 2026 FLL Explore Blinkfest.
+      </p>
+
+      <div class="contact-card reveal">
+        <div class="contact-row"><span class="contact-label">Ages</span><span>6&ndash;10</span></div>
+        <div class="contact-row"><span class="contact-label">Contact</span><a href="tel:+16098744408">609-874-4408</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END TEAM SECTIONS -->
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>NextGen Robotics</span>
+      <span class="footer-sep">&middot;</span>
+      <span>FLL Challenge 608 Gear Up &amp; FLL Explore 33994 Great Gears</span>
+      <span class="footer-sep">&middot;</span>
+      <span>West Windsor Township, NJ</span>
+      <span class="footer-sep">&middot;</span>
+      <a href="mailto:nextgenroboticsnj@gmail.com">nextgenroboticsnj@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
